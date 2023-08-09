@@ -1,0 +1,14 @@
+{
+    "black-formatter.importStrategy": "fromEnvironment",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "files.autoSave": "afterDelay",
+    "python.analysis.typeCheckingMode": "strict",
+    "editor.rulers": [
+        79
+    ],
+    "autoDocstring.generateDocstringOnEnter": true,
+    "autoDocstring.includeName": false
+}
