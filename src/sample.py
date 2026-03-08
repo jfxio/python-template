@@ -1,4 +1,5 @@
 """An example module with a couple of simple functions."""
+
 from collections.abc import Iterator
 
 

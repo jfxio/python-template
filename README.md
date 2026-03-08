@@ -5,7 +5,7 @@
 Clone the project and then:
 
 * Edit `pyproject.toml`
-    * `[tool.poetry]`: `name`, `description`, `packages`
+    * `[project]`: `name`, `description`, `packages`, `dependencies`
     * `[tool.poetry.scripts]`
 * Rename
     * `src/sample`
@@ -14,7 +14,7 @@ Clone the project and then:
 * `poetry install`
 
 ## Documentation
-* `poetry run sphinx-quickstart docs`
+* `poetry run sphinx-quickstart docs` _Already done_
 * In `docs/source/conf.py`:
 [source,python]
     ````

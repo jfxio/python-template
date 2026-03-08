@@ -1,4 +1,5 @@
 """Sum integers, possibly squared first."""
+
 import argparse
 import sys
 from collections.abc import Iterator, Sequence
@@ -58,6 +59,7 @@ def run(args: Args | None = None) -> None:
     )
     print(f'Total is {result}')
     sys.exit(0)
+
 
 if __name__ == '__main__':
     run()
