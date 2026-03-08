@@ -11,7 +11,12 @@ Clone the project and then:
     * `src/sample`
     * `tests/`
 * Enable vscode plugins for workspace: _autoDocstring_, _Black Formatter_, _Even Better TOML, _Pylance_
-* `poetry install`
+    * `poetry install`
+
+* Update a dependency or dev dependency (including updating `pyproject.toml`)
+    * `poetry add pkg@latest`
+    * `poetry add -G dev pkg@latest`
+    * _note: this will go past existing constraints in `pyproject.toml`
 
 ## Documentation
 * `poetry run sphinx-quickstart docs` _Already done_

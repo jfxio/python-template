@@ -1,6 +1,6 @@
 [project]
 name = "sample"
-version = "0.0.0"
+version = "0.0.1"
 description = "A template for python projects."
 authors = [
     { name="J Frisbie", email = "<34043999+jfxio@users.noreply.github.com>" }
@@ -15,14 +15,14 @@ sample = "main:run"
 
 [dependency-groups]
 dev = [
-    "pytest >=7.4.0",
-    "coverage >=7.2.7",
-    "pyright >=1.1.320",
-    "sphinx >=7.1.2",
-    "black >=23.7.0",
-    "furo >=2023.7.26",
-    "ruff >=0.0.282",
-    "myst-parser >=2.0.0"
+    "pytest (>=9.0.2,<10.0.0)",
+    "coverage (>=7.13.4,<8.0.0)",
+    "pyright (>=1.1.408,<2.0.0)",
+    "sphinx (>=9.1.0,<10.0.0)",
+    "black (>=26.3.0,<27.0.0)",
+    "furo (>=2025.12.19,<2026.0.0)",
+    "ruff (>=0.15.5,<0.16.0)",
+    "myst-parser (>=5.0.0,<6.0.0)"
 ]
 
 [build-system]
@@ -63,8 +63,6 @@ ignore = [
 "__init__.py" = [
     "D104",
 ]
-
-
 
 [tool.ruff.lint.flake8-quotes]
 inline-quotes = "single"
